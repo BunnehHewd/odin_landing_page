@@ -1,0 +1,166 @@
+*{
+    margin: 0 auto;
+}
+
+header {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 30px;
+}
+
+header span {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    flex-direction: column;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 0 10px;
+}
+
+.first {
+    background-color: #1F2937;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+}
+
+div {
+    height: 200px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+span {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+button {
+    width: 100px;
+    margin: 0;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 18px;
+    border-radius: 5px;
+    border-width: 0px;
+    padding: 3px 0;
+}
+
+.grey {
+    background-color: #8c8c99;
+    justify-content: center;
+}
+
+.second {
+    height: 400px;
+}
+
+h2 {
+    text-align: center;
+    margin: 25px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.squares {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    width: 60%;
+    text-align: center;
+    
+}
+
+.squares span {
+    color:#1F2937;
+}
+
+.blue {
+    height: 150px;
+    width: 100%;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.third {
+    background-color: #e5e7eb;
+    display: block;
+    padding: 100px 20%;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+
+.thor {
+    display: block;
+    font-style: normal;
+    color: #1F2937;
+    text-align: end;
+    font-weight: bold;
+}
+
+.four {
+    background-color: #3882F6;
+    width: 80%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 80px auto;
+    border-radius: 10px;
+}
+
+.call {
+    height: 100px;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    width: 60%;
+    
+}
+
+h4, .call p {
+    margin: 0;
+    font-size: 18px;
+}
+
+h4 {
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.bCall {
+    border: 2px solid white;
+    width: 15%;
+    margin: auto;
+}
+
+footer {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 40px 0;
+    
+}
